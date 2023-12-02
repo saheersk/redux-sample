@@ -1,0 +1,50 @@
+.DS_Store
+node_modules
+.turbo
+*.log
+dist
+dist-ssr
+*.local
+.env
+.cache
+server/dist
+public/dist
+
+# Ignore node_modules directory at the root
+node_modules/
+
+# Ignore virtual environment or dependencies for Python backend
+venv/
+__pycache__/
+
+# Ignore compiled binaries or build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore compiled JavaScript or TypeScript files
+*.js
+*.js.map
+*.d.ts
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore any environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs and other runtime files
+logs/
+*.log
+
+# Ignore build artifacts and dependencies
+/build/
+/dist/
+/node_modules/

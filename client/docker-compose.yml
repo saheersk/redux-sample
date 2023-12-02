@@ -1,0 +1,15 @@
+
+version: "3.8"
+
+services:
+  #frontend
+  frontend_profile:
+    container_name: profile_test_frontend_container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/profile
+
